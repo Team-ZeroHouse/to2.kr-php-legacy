@@ -1,0 +1,22 @@
+<?php
+
+const DEBUG = false;
+const BLACKLIST = true;
+
+const PROTOCOL = 'https://';
+const HOST = 'to2.kr';
+const ORIGIN = PROTOCOL.HOST;
+
+const DB_HOST = '';
+const DB_NAME = 'to2';
+const DB_USER = '';
+const DB_PASS = '';
+
+const RECAPTCHA_SITE = '';
+const RECAPTCHA_SECRET = '';
+
+const GA_CODE = '';
+const AD_CLIENT = '';
+const AD_SLOT = '';
+
+const CODE_REGEX = '[abcdefghjkmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789]{3,}';
